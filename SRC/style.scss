@@ -1,0 +1,241 @@
+@import "~bootstrap";
+
+body {
+  margin: fill;
+}
+
+.navbar-text {
+  background-color: grey;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.navbar {
+  display: inline;
+}
+
+.btn-link {
+  background-color: gray;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: dimgray;
+  border-radius: 8px;
+}
+
+.nav-tab {
+  float: right;
+  display: inline;
+}
+
+.card-img {
+  width: 35%;
+  height: 35%;
+  align-content: center;
+}
+
+.img-fluid {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-link {
+  color: black;
+  background-color: grey;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+
+}
+
+.text-black-50 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.page-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: dimgray;
+}
+
+.btn-group {
+  align-content: center;
+  position: relative;
+  top: 20px;
+  left: 47%;
+  margin-bottom: 20px;
+}
+
+
+.text-black-50 {
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+
+  }
+
+  50% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 100%;
+
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+
+  }
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: gray;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+  background: dimgrey;
+}
+
+div.gallery {
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  color: white;
+  padding: 10px;
+  font-size: 20;
+  text-align: center;
+  text-decoration: white;
+}
+
+.body {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/a005-scottw-486.jpg?bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=1200&s=4a98670d50c006d9b3eee57d772d0cbb");
+  background-size: 100%;
+}
+
+.btn-lg {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#hm-btn {
+  position: relative;
+  text-decoration: white;
+  color: white;
+  padding: 14px 25px;
+}
+
+#hm-btn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: dimgray;
+  width: 40px;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.media{
+  margin: 10px;
+  height: 1px;
+}
+
+.text-info{
+  padding-top: 20px;
+}
+.text-info h1{
+  color: white;
+}
+
+.text-info p{
+  color: white;
+}
+
+.div-main{
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.div-main h1 {
+  color: white;
+}
+
+
+
+
+
+
